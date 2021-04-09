@@ -33,7 +33,7 @@ int main(int argc,char**argv)
 	{
 		if(check_for_biomes(bmap, biomes, &lst, seed))
 		{
-			std::cout << seed << std::endl;
+			std::cout << seed << ", " << getShadow(seed) << std::endl;
 			++cnt;
 		}
 	}
